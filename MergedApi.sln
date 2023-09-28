@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergedApi.Standard", "MergedApi.Standard/MergedApi.Standard.csproj", "{07ff0647-0065-4317-b404-164d50e4b97c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergedApi.Tests", "MergedApi.Tests/MergedApi.Tests.csproj", "{d92328e3-b556-4295-aa56-a5cd320082d7}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {07ff0647-0065-4317-b404-164d50e4b97c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {07ff0647-0065-4317-b404-164d50e4b97c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {07ff0647-0065-4317-b404-164d50e4b97c}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {07ff0647-0065-4317-b404-164d50e4b97c}.Release|Any CPU.Build.0 = Release|Any CPU
+        {d92328e3-b556-4295-aa56-a5cd320082d7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {d92328e3-b556-4295-aa56-a5cd320082d7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {d92328e3-b556-4295-aa56-a5cd320082d7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {d92328e3-b556-4295-aa56-a5cd320082d7}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(SolutionProperties) = preSolution
+        HideSolutionNode = FALSE
+    EndGlobalSection
+EndGlobal
